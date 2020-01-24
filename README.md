@@ -1,0 +1,2 @@
+# EasyToTravel
+As we know, in our daily life we are used to about other taxi services, as per their rules and regulations they charge for waiting time also. But whenever we want to spend some extra time with somewhere we have to pay extra charges to others taxi services.  To overcome this problem, we “Indexial Solution” here brought new service i.e.  “EasyToTravel”  where we do not have to pay extra charges for waiting time providing same function as other taxi services along with feature -no extra charge for waiting time. 
