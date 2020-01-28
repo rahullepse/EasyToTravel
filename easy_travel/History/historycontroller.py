@@ -1,0 +1,1 @@
+from EasyToTravel.easy_travel.History.models import *
