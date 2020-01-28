@@ -11,5 +11,6 @@ class Owner(db.Model):
     ownMobileno = db.Column('owner_cno',db.BIGINT())
     ownPan = db.Column('owner_pan',db.String(100))
     ownAadhar = db.Column('owner_aadhar', db.BIGINT())
-    vehOwner = db.Column('veh_owner', db.ForeignKey('vehicle.veh_id'), unique=True)
-    ownerDriver = db.Column('owner_driv', db.ForeignKey('driver.driver_id'), unique=True)
+    ownerVehic = db.relationship('Vehicle', uselist=True, lazy=True, backref='own_vehicle')
+    ownerDriver = db.relationship('Driver', uselist=True, lazy=True, backref='own_driver')
+
